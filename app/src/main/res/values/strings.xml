@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Employee Data</string>
+    <string name="search_string">Search Employee Name or Email</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="address">Address</string>
+    <string name="location">Location</string>
+    <string name="website">Website</string>
+    <string name="company_details">Company Details</string>
+</resources>

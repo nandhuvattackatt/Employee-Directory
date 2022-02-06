@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/drawable/curve.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/drawable/progress_wheel_bg.xml" value="0.262037037037037" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/drawable/toast_view_bg.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/layout/activity_employee_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/layout/activity_employee_list.xml" value="0.2" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/layout/employee_detail_item.xml" value="0.1" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/layout/employee_list_item.xml" value="0.16" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/layout/id_cart_item.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/layout/progress_wheel.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Nandhu/Documents/Android/EmployeeData/app/src/main/res/layout/toolbar_custom.xml" value="0.12708333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

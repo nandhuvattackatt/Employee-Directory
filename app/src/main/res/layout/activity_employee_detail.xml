@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.EmployeeDetailActivity">
+
+    <include
+        android:id="@+id/base_toolbar"
+        layout="@layout/toolbar_custom" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_small"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"
+                android:layout_margin="@dimen/margin_small"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_details"
+                android:textColor="@color/black"
+                android:textSize="@dimen/subTitleTextSize"
+                android:textStyle="bold" />
+
+
+            <include
+                android:id="@+id/name"
+                layout="@layout/employee_detail_item" />
+
+            <include
+                android:id="@+id/user_name"
+                layout="@layout/employee_detail_item" />
+
+            <include
+                android:id="@+id/email"
+                layout="@layout/employee_detail_item" />
+            <include
+                android:id="@+id/phone"
+                layout="@layout/employee_detail_item" />
+
+            <TextView
+                android:id="@+id/website_lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/website"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/margin_smaller"
+                android:textSize="@dimen/subTitleTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_smaller"
+                android:autoLink="web"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/margin_smaller"
+                android:textSize="@dimen/subTitleTextSize"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/street"
+                layout="@layout/employee_detail_item" />
+            <include
+                android:id="@+id/suite"
+                layout="@layout/employee_detail_item" />
+            <include
+                android:id="@+id/city"
+                layout="@layout/employee_detail_item" />
+            <include
+                android:id="@+id/zipcode"
+                layout="@layout/employee_detail_item" />
+
+            <TextView
+                android:id="@+id/location_lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/margin_smaller"
+                android:textSize="@dimen/subTitleTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_smaller"
+                android:autoLink="web"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/company_details"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/margin_smaller"
+                android:textSize="@dimen/subTitleTextSize"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/company"
+                layout="@layout/employee_detail_item" />
+            <include
+                android:id="@+id/catch_phrase"
+                layout="@layout/employee_detail_item" />
+            <include
+                android:id="@+id/bs"
+                layout="@layout/employee_detail_item" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
